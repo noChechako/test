@@ -1,9 +1,9 @@
-export interface TagDTO {
+export interface TagRequestDTO {
   id: number;
   type?: string;
   name: string;
 }
 
-export interface TagState extends TagDTO {
+export interface TagState extends TagRequestDTO {
   parentId: number;
 }

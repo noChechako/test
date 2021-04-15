@@ -1,6 +1,6 @@
 export interface CreateAnswerRequestDTO {
   text: string,
-  correct: boolean
+  isCorrect: boolean
 }
 
 export interface AnswerResponseDTO extends CreateAnswerRequestDTO{

@@ -1,5 +1,8 @@
 export class CreateTagRequestDto {
-  parentTagId: number;
   name: string;
-  type: string;
+  parentTagId: number;
+  isUseInStatistic: boolean;
+  isHide: boolean;
+  priority: number;
+  type:string;
 }

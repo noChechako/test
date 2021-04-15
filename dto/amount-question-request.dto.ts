@@ -1,3 +1,5 @@
-  export interface AmountQuestionResponseDto {
-  amount: number;
+//todo
+export class AmountQuestionsRequestDto {
+  tagId: number;
+  type: string;
 }

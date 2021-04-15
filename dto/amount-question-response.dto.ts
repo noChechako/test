@@ -1,4 +1,3 @@
-export class AmountQuestionsRequestDto {
-  tagId: number;
-  type: string;
+  export interface AmountQuestionResponseDto {
+  amount: number;
 }

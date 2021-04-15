@@ -1,10 +1,10 @@
-export interface CreateUserRequestDTO {
-  username?: string,
-  login: string,
-  password: string,
-  role?: string[]
+export class CreateUserRequestDTO {
+  name: string;
+  login: string;
+  password: string;
+  roles?: number[];
 }
 
-export interface UserResponseDTO extends CreateUserRequestDTO {
-  id:number;
-}
+// export interface UserResponseDTO extends CreateUserRequestDTO {
+//   id:number;
+// }
