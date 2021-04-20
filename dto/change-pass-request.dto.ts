@@ -1,6 +1,6 @@
 export class ChangeUserRequestDTO {
     id:number;
-    login?:string;
+    name?:string;
     password?: string;
    
 
